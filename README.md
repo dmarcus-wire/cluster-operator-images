@@ -16,7 +16,6 @@ For OpenShift 4.20.4/12 Environment
 
 1. **Cluster Observability Operator** 1.3.1 - Enables creation and management of customizable, standalone monitoring stacks (e.g., Prometheus, Thanos, Alertmanager) for detailed namespace-level observability, beyond the default cluster monitoring, with console integration for metrics/logs/traces correlation.
 1. **Loki Operator** 6.4.3 - Deploys and manages LokiStack (a secure, multi-tenant Loki deployment) as a log storage backend, integrated with OpenShift authentication, for scalable log aggregation and querying.
-1. **Package Server** 0.0.1-snapshot - An internal OLM component that serves as a catalog server, exposing Operator metadata from catalogs to the OperatorHub UI and oc CLI for discovery and installation.
 1. **Power monitoring for Red Hat OpenShift** 0.5.0 - Collects and exposes energy/power consumption metrics (e.g., via RAPL interfaces) for nodes and containers, enabling power usage monitoring, optimization, and reporting in Prometheus.
 1. **Red Hat build of OpenTelemetry** 0.144.0-1 - Deploys OpenTelemetry Collectors to collect, process, and export telemetry data (metrics, logs, traces) in OTLP format, supporting integration with backends like Prometheus, Loki, Tempo.
 1. **Red Hat OpenShift Logging** 6.4.3 - Collects, forwards, stores, and visualizes container and node logs using collectors (Vector), with support for LokiStack or other backends, and console integration for log querying.
@@ -32,6 +31,8 @@ For OpenShift 4.20.4/12 Environment
 1. **Red Hat OpenShift Pipelines** 1.21.0 - Implements Tekton for cloud-native CI/CD pipelines as code, enabling automated builds, tests, deployments, and workflows using Kubernetes-native resources.
 1. **Red Hat OpenShift Dev Spaces** 3.26.1 - Provides a fully managed, enterprise-ready developer workspace platform (based on Eclipse Che), offering browser-based IDEs, multi-user collaboration, and GitOps workflows.
 1. **Red Hat OpenShift GitOps** 1.19.2 - Delivers Argo CD for declarative GitOps continuous delivery, managing application deployments, configurations, and rollouts from Git repositories across clusters.
+1. **Package Server** 0.0.1-snapshot - An internal OLM component that serves as a catalog server, exposing Operator metadata from catalogs to the OperatorHub UI and oc CLI for discovery and installation.
+
 
 ## Viewing installed operators
 
