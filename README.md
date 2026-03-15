@@ -1,5 +1,7 @@
 # Operators to install
 
+For OpenShift 4.20.4/12 Environment
+
 ## Multi-Cluster Management & Security
 
 1. **Advanced Cluster Management for Kubernetes** 2.16.0 - Manages multiple OpenShift/Kubernetes clusters from a single hub, including policy enforcement, application lifecycle, observability across clusters, and multicluster governance.
